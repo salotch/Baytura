@@ -3,6 +3,7 @@ import React from "react";
 import { Icon } from "@iconify/react";
 import { useNavigate } from "react-router-dom";
 import { popularLocations } from "../Data";
+import Dropdown from "../properites/Dropdown";
 
 const HomeSection = () => {
   const navigate = useNavigate();
@@ -22,11 +23,11 @@ const HomeSection = () => {
         <div className="bg-white rounded-lg shadow-md p-6 md:p-8 max-w-5xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6">
             {/* Location */}
-            <div>
-              <label className="text-sm font-medium text-gray-600">
+            <div className="mt-1 bg-light-white rounded-md px-2 py-2 hover:shadow-lg">
+              {/* <label className="text-sm font-medium text-gray-600">
                 Location
-              </label>
-              <div className="flex items-center gap-2 mt-1 border rounded-md px-3 py-2">
+              </label> */}
+              <div className="flex gap-2  ">
                 <Icon
                   icon="mdi:map-marker-outline"
                   className="text-beige w-5 h-5"
@@ -40,7 +41,7 @@ const HomeSection = () => {
             </div>
 
             {/* Price Range */}
-            <div>
+            {/* <div>
               <label className="text-sm font-medium text-gray-600">
                 Price Range
               </label>
@@ -52,26 +53,26 @@ const HomeSection = () => {
                   <option>$1000 - $5000</option>
                 </select>
               </div>
-            </div>
+            </div> */}
 
             {/* Bedrooms */}
-            <div>
+            {/* <div>
               <label className="text-sm font-medium text-gray-600">
                 Bedrooms
               </label>
               <div className="flex items-center gap-2 mt-1 border rounded-md px-3 py-2">
                 <Icon icon="mdi:bed-outline" className="text-beige w-5 h-5" />
                 <select className="outline-none w-full text-primary text-sm">
-                  <option>Any price</option>
+                  <option>Any</option>
                   <option>1</option>
                   <option>2</option>
                   <option>3+</option>
                 </select>
               </div>
-            </div>
+            </div> */}
 
             {/* Property Type */}
-            <div>
+            {/* <div>
               <label className="text-sm font-medium text-gray-600">
                 Property Type
               </label>
@@ -84,13 +85,32 @@ const HomeSection = () => {
                   <option>Townhouse</option>
                 </select>
               </div>
-            </div>
+            </div> */}
+
+            <Dropdown
+              label="All Types"
+              options={["All Types", "Apartment", "Villa", "Studio"]}
+              opIcon="mdi:home-outline"
+              opIc="text-beige w-5 h-5"
+            ></Dropdown>
+            <Dropdown
+              label="Any Price"
+              options={["Any Price", "$0 - 1000$", "$1000 - 5000$", "$5000+"]}
+              opIcon="mdi:currency-usd"
+              opIc="text-beige w-5 h-5"
+            ></Dropdown>
+            <Dropdown
+              label="Any Bedrooms"
+              options={["1 Bedrooms", "2 Bedrooms", "3+ Bedrooms"]}
+              opIcon="mdi:bed-outline"
+              opIc="text-beige w-5 h-5"
+            ></Dropdown>
           </div>
 
           {/* Search Button */}
           <button
             onClick={() => navigate("/properties")}
-            className="mt-4 w-full md:w-auto bg-gradient-to-r from-primary to-beige text-white py-2 px-6 rounded-xl hover:opacity-90 transition"
+            className="mt-4 w-full md:w-auto bg-gradient-to-r cursor-pointer from-primary to-beige text-white py-2 px-6 rounded-xl hover:opacity-90 transition"
           >
             <div className="flex items-center gap-2 justify-center">
               <Icon icon="mdi:magnify" className="w-5 h-5" />

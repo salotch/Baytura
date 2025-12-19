@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import { Icon } from "@iconify/react";
 
-const Dropdown = ({ label, options }) => {
+const Dropdown = ({ label, options, opIcon, opIc }) => {
   const [open, setOpen] = useState(false);
   const [selected, setSelected] = useState(label);
   const dropdownRef = useRef(null);
@@ -27,6 +27,7 @@ const Dropdown = ({ label, options }) => {
         onClick={() => setOpen(!open)}
         className="flex items-center w-full justify-between cursor-pointer text-primary transition"
       >
+        {opIcon && <Icon icon={opIcon} className={opIc}></Icon>}
         <span>{selected}</span>
         <Icon
           icon="mdi:chevron-down"
