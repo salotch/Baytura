@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import AppLayout from "./components/layout/AppLayout";
 import Home from "./pages/Home";
 import Properties from "./pages/Properties";
@@ -7,19 +7,19 @@ import ContactPage from "./pages/ContactPage";
 import About from "./pages/About";
 import Services from "./pages/Services";
 
-const router = createBrowserRouter([
+const routes = createHashRouter([
   {
     path: "/",
-    element: <AppLayout />, // shared layout (Navbar + Footer)
+    element: <AppLayout />,
     children: [
-      { index: true, element: <Home /> }, // "/" default
+      { index: true, element: <Home /> },
       { path: "about", element: <About /> },
-      { path: "Contact", element: <ContactPage /> },
-      { path: "Properties", element: <Properties /> },
-      { path: "/Properties/:id", element: <PropertyDetails /> },
-      { path: "Services", element: <Services /> },
+      { path: "contact", element: <ContactPage /> },
+      { path: "properties", element: <Properties /> },
+      { path: "properties/:id", element: <PropertyDetails /> },
+      { path: "services", element: <Services /> },
     ],
   },
 ]);
 
-export default router;
+export default routes;
