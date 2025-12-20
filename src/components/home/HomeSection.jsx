@@ -9,7 +9,7 @@ const HomeSection = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="h-[150vh] md:h-[120vh] flex flex-col justify-center items-center text-center bg-[url('../../assets/home-img.jpeg')] bg-cover bg-center text-white">
+    <section className="h-[150vh] md:h-[120vh] flex flex-col justify-center items-center text-center bg-[url('/src/assets/home-img.jpeg')] bg-cover bg-center text-white">
       <h1 className="text-5xl font-bold mb-4 drop-shadow-lg mt-50">
         Find Your <span className="gradient2">Dream Home</span>
       </h1>
