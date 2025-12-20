@@ -1,6 +1,6 @@
 // src/pages/Home.jsx
 import { useState } from "react";
-import AuthModal from "../components/AuthModal";
+import AuthModal from "/src/components/AuthModal";
 
 const Home = () => {
   const [showModal, setShowModal] = useState(false);

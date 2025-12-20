@@ -2,8 +2,8 @@
 import React from "react";
 import { Icon } from "@iconify/react";
 import { useNavigate } from "react-router-dom";
-import { popularLocations } from "../Data";
-import Dropdown from "../properites/Dropdown";
+import { popularLocations } from "/src/components/Data";
+import Dropdown from "/src/components/properites/Dropdown";
 
 const HomeSection = () => {
   const navigate = useNavigate();

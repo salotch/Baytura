@@ -1,6 +1,6 @@
-import PropertyCard from "../properites/PropertyCard";
+import PropertyCard from "/src/components/properites/PropertyCard";
 
-import { properties } from "../Data";
+import { properties } from "/src/components/Data";
 const Featured = () => {
   return (
     <div className="py-12 px-10 max-w-6xl mx-auto ">

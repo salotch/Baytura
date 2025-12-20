@@ -1,5 +1,5 @@
 // src/components/FeaturedProperties.jsx
-import PropertyCard from "../properites/PropertyCard";
+import PropertyCard from "/src/components/properites/PropertyCard";
 
 const properties = [
   {

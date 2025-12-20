@@ -1,11 +1,11 @@
 import { createHashRouter } from "react-router-dom";
-import AppLayout from "./components/layout/AppLayout";
-import Home from "./pages/Home";
-import Properties from "./pages/Properties";
-import PropertyDetails from "./pages/PropertyDetails";
-import ContactPage from "./pages/ContactPage";
-import About from "./pages/About";
-import Services from "./pages/Services";
+import AppLayout from "/src/components/layout/AppLayout";
+import Home from "/src/pages/Home";
+import Properties from "/src/pages/Properties";
+import PropertyDetails from "/src/pages/PropertyDetails";
+import ContactPage from "/src/pages/ContactPage";
+import About from "/src/pages/About";
+import Services from "/src/pages/Services";
 
 const routes = createHashRouter([
   {
