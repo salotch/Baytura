@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Icon } from "@iconify/react";
-import PropertyCard from "../components/properites/PropertyCard";
-import { properties } from "../components/Data";
+import PropertyCard from "/src/components/properites/PropertyCard";
+import { properties } from "/src/components/Data";
 import { useNavigate } from "react-router-dom";
-import Dropdown from "../components/properites/Dropdown";
+import Dropdown from "/src/components/properites/Dropdown";
 
 export default function Properties() {
   const navigate = useNavigate();

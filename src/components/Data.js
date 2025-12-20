@@ -26,7 +26,7 @@ export const properties = {
         phone: "+971 55 123 4567",
         email: "sarah.johnson@example.com",
       },
-      image: "/src/assets/feature-1.jpeg",
+      image: "/src/assets/feature1.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -56,7 +56,7 @@ export const properties = {
         phone: "+971 55 123 4567",
         email: "sarah.johnson@example.com",
       },
-      image: "/src/assets/feature-4.jpeg",
+      image: "/src/assets/feature4.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -87,7 +87,7 @@ export const properties = {
       },
       forRent: true,
       forSale: false,
-      image: "/src/assets/feature-1.jpeg",
+      image: "/src/assets/feature1.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -117,7 +117,7 @@ export const properties = {
       },
       forRent: true,
       forSale: false,
-      image: "/src/assets/feature-4.jpeg",
+      image: "/src/assets/feature4.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -148,7 +148,7 @@ export const properties = {
       },
       forRent: false,
       forSale: true,
-      image: "/src/assets/feature-1.jpeg",
+      image: "/src/assets/feature1.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -178,7 +178,7 @@ export const properties = {
       },
       forRent: true,
       forSale: false,
-      image: "/src/assets/feature-4.jpeg",
+      image: "/src/assets/feature4.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -209,7 +209,7 @@ export const properties = {
       },
       forRent: true,
       forSale: false,
-      image: "/src/assets/feature-4.jpeg",
+      image: "/src/assets/feature4.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },
@@ -238,7 +238,7 @@ export const properties = {
         phone: "+971 55 123 4567",
         email: "sarah.johnson@example.com",
       },
-      image: "/src/assets/feature-4.jpeg",
+      image: "/src/assets/feature4.jpeg",
       added: [
         { title: "Wifi", icon: "famicons:wifi-outline" },
         { title: "Parking", icon: "fluent-mdl2:parking-mirrored-solid" },

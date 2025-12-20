@@ -1,7 +1,7 @@
 // src/pages/PropertyDetails.jsx
 import { useParams } from "react-router-dom";
 import { Icon } from "@iconify/react";
-import { properties } from "../components/Data"; // wherever your data is
+import { properties } from "/src/components/Data"; // wherever your data is
 import { Link } from "react-router-dom";
 
 const PropertyDetails = () => {

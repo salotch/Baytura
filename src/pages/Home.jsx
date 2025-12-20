@@ -1,7 +1,7 @@
-import Featured from "../components/home/Featured";
-import HomeSection from "../components/home/HomeSection";
-import Property from "../components/home/Property";
-import { categories, Whychoose } from "../components/Data";
+import Featured from "/src/components/home/Featured";
+import HomeSection from "/src/components/home/HomeSection";
+import Property from "/src/components/home/Property";
+import { categories, Whychoose } from "/src/components/Data";
 
 export default function Home() {
   return (

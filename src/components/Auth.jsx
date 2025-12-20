@@ -38,7 +38,7 @@ const Auth = ({ isOpen, onClose, isLogin, setIsLogin }) => {
         {/* Logo */}
         <div className="flex justify-center mb-4">
           <img
-            src="./src/assets/Rectangle.jpg"
+            src="/src/assets/Rectangle.jpg"
             alt="Bayt Aura Logo"
             className="h-10"
           />

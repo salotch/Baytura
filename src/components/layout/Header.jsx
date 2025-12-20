@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
-import Auth from "../Auth";
+import Auth from "/src/components/Auth";
 
 export default function Header() {
   const [showModal, setShowModal] = useState(false);

@@ -143,7 +143,7 @@ const ContactPage = () => {
 
             <div className="bg-white rounded-lg shadow overflow-hidden">
               <img
-                src="./src/assets/support.jpg"
+                src="/src/assets/support.jpg"
                 alt="Support"
                 className="w-full h-40 object-cover"
               />

@@ -192,28 +192,28 @@ const About = () => {
               name="Sarah Johnson"
               role="CEO & Founder"
               desc="15+ years in real estate, former VP at leading property firms"
-              image="./src/assets/avatar.jpg"
+              image="/src/assets/avatar.jpg"
               socials={["mdi:linkedin", "mdi:twitter", "mdi:email-outline"]}
             />
             <LeaderCard
               name="Michael Chen"
               role="CTO"
               desc="AI and machine learning expert, former Google engineer"
-              image="./src/assets/avatar.jpg"
+              image="/src/assets/avatar.jpg"
               socials={["mdi:linkedin", "mdi:github", "mdi:email-outline"]}
             />
             <LeaderCard
               name="Emily Rodriguez"
               role="Head of Sales"
               desc="Real estate sales champion with record-breaking performance"
-              image="./src/assets/avatar.jpg"
+              image="/src/assets/avatar.jpg"
               socials={["mdi:linkedin", "mdi:twitter", "mdi:email-outline"]}
             />
             <LeaderCard
               name="David Kumar"
               role="Head of Customer Success"
               desc="Customer experience specialist focused on client satisfaction"
-              image="./src/assets/avatar.jpg"
+              image="/src/assets/avatar.jpg"
               socials={["mdi:linkedin", "mdi:email-outline"]}
             />
           </div>
